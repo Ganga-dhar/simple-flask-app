@@ -9,7 +9,6 @@ jobs:
   deploy:
     name: Build and Deploy to ECS
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3

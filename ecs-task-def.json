@@ -1,6 +1,7 @@
 {
     "family": "simple-flask-task",
     "networkMode": "awsvpc",
+    "executionRoleArn": "arn:aws:iam::730335304128:role/ecs-task-role",
     "requiresCompatibilities": ["FARGATE"],
     "cpu": "256",
     "memory": "512",
